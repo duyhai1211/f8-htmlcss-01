@@ -70,7 +70,7 @@ a {
     display: flex;
     flex-direction: column;
     background: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 
 .navbar {
@@ -641,7 +641,7 @@ a {
     width: 28px;
     height: 28px;
     border-radius: 3px;
-    background-color: #F9F9F9;
+    background-color: #f9f9f9;
 }
 
 .footer .social-link + .social-link {
@@ -660,7 +660,7 @@ a {
 }
 
 .footer .copyright {
-    color: #C2C2C2;
+    color: #c2c2c2;
     font-size: 1.4rem;
     font-weight: 400;
 }
